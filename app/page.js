@@ -8,28 +8,28 @@ export default function Home() {
   const [options, setOptions] = useState({
     data: [
       {
-        financials: 'Income\nTax',
+        financials: '1',
         amount: 185,
       },
       {
-        financials: 'VAT',
+        financials: '2',
         amount: -545,
       },
       {
-        financials: 'NI',
+        financials: '3',
         amount: 134,
       },
 
       {
-        financials: 'Social\nProtection',
+        financials: '4',
         amount: -252,
       },
       {
-        financials: 'Health',
+        financials: '5',
         amount: 155,
       },
       {
-        financials: 'Education',
+        financials: '6',
         amount: -112,
       },
     ],
@@ -43,7 +43,7 @@ export default function Home() {
       {
         type: 'waterfall',
         xKey: 'financials',
-        xName: 'Financials',
+        xName: '',
         yKey: 'amount',
         yName: 'Amount',
       },
